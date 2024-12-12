@@ -33,4 +33,3 @@ jobs:
             --region us-east-1 \
             build s3://s3-practice-react \
             --delete
-        working-directory: <작업할 디렉토리>
