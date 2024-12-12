@@ -31,5 +31,5 @@ jobs:
         run: |
           aws s3 sync \
             --region us-east-1 \
-            build s3://s3-practice-react \
+            dist s3://s3-practice-react \
             --delete
